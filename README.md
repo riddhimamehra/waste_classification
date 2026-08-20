@@ -54,7 +54,7 @@ The model was trained in two stages:
 
 ### Architecture
 
-````text
+```text
 Input Image
      ↓
 Data Augmentation
@@ -76,21 +76,25 @@ Softmax
      ↓
 Waste Category
 
+```
+
+---
+
 ## Model Performance
 
 The final fine-tuned EfficientNetB0 achieved approximately:
 
 ### 90% Validation Accuracy
 
-| Class | Precision | Recall | F1-Score |
-|---|---:|---:|---:|
-| Battery | 0.96 | 0.96 | 0.96 |
-| Cardboard | 0.98 | 0.86 | 0.91 |
-| Clothes | 0.94 | 0.99 | 0.96 |
-| Glass | 0.88 | 0.88 | 0.88 |
-| Metal | 0.85 | 0.92 | 0.88 |
-| Paper | 0.89 | 0.91 | 0.90 |
-| Plastic | 0.90 | 0.78 | 0.83 |
+| Class     | Precision | Recall | F1-Score |
+| --------- | --------: | -----: | -------: |
+| Battery   |      0.96 |   0.96 |     0.96 |
+| Cardboard |      0.98 |   0.86 |     0.91 |
+| Clothes   |      0.94 |   0.99 |     0.96 |
+| Glass     |      0.88 |   0.88 |     0.88 |
+| Metal     |      0.85 |   0.92 |     0.88 |
+| Paper     |      0.89 |   0.91 |     0.90 |
+| Plastic   |      0.90 |   0.78 |     0.83 |
 
 ### Overall Metrics
 
@@ -128,7 +132,7 @@ waste-classifier/
 ├── requirements.txt
 ├── README.md
 └── waste_classification.ipynb
-````
+```
 
 ### File Description
 
