@@ -76,8 +76,9 @@ Softmax
      ↓
 Waste Category
 
----
 ````
+---
+
 ## Model Performance
 
 The final fine-tuned EfficientNetB0 achieved approximately:
