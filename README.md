@@ -2,7 +2,7 @@
 
 An AI-powered waste classification project that uses **Deep Learning and Transfer Learning** to classify waste images into 7 categories, benchmarking a custom CNN against MobileNetV2 and EfficientNetB0 transfer-learning backbones.
 
-🔗 **Live demo:** [add your Streamlit Community Cloud URL here]
+🔗 **Live demo:** https://wasteclassification-d2tgzubrepyuhg4uvqsu6s.streamlit.app/
 
 The project uses a **fine-tuned EfficientNetB0** model (compared against a MobileNetV2 baseline) and provides a **Streamlit web application** where users can upload an image and get the predicted waste category along with the model's confidence.
 
